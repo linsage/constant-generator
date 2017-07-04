@@ -1,5 +1,5 @@
 # constant-generator
-
+## 常量类生成器
 需求：
 1. properties配置文件，创建常量类
 2. 常量类创建后，繁多设置属性值
