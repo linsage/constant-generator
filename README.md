@@ -1,21 +1,18 @@
 # constant-generator
-## 常量类生成器
-需求：
+## Java常量类生成器
+- 需求
 1. properties配置文件，创建常量类
 2. 常量类创建后，繁多设置属性值
 3. 配置文件变更和常量类不同步，容易遗漏
 
-作用
-只需维护properties文件，自动生成类和设置属性值
-
-特点：
+- 特点
 1. 支持自动生成常量类  ConfigGenerator
 2. 支持无限树形结构生成，基础数据类型（默认String，自定义属性type）
 3. 支持自动设置值   ConfigLoader
 
+- 作用：只需维护properties文件，自动生成类和设置属性值
 
-示例：
-
+### 示例
 #### config.properties 配置文件
 
 ```xml
