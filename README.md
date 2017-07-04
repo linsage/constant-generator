@@ -79,7 +79,8 @@ package xyz.linsage.model;
  */
 @SuppressWarnings("serial")
 public  class Constant {
-	 public static String devMode;
+	 public static String name;
+	 public static boolean devMode;
 
 	 public static class db {
 		 public static String url;
